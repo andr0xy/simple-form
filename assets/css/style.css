@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #141516;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+input {
+    outline: none;
+    border: solid 1px #000;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #141516;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #141516;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    height: 128px;
+}
+
+header small {
+    margin-bottom: 10px;
+}
+
+main form .input-block {
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+input:focus {
+    border: solid 1px #8563ff;
+}
+
+.button {
+    background: rgba(0, 0, 0, 0);
+    outline: none;
+    border: solid 1px #8563ff;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.button:hover {
+    background: #7b56ff;
+}
+
+.actions-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.password-recovery {
+    margin-bottom: 10px;
+}
+
+.password-recovery small a {
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #7b56ff;
+}
+
+.password-text {
+    color: #7b56ff;
+}
